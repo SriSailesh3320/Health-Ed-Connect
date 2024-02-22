@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+  background-image: url('images/back-blur.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: relative;
+  position: relative;
+}
+.container {
+  max-width: 800px;
+  margin: 100px auto;
+  width: 150%;
+  padding: 75px;
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+}
+
+
+.login-container {
+  background-color: #131212;
+  padding: 40px; /* Increased padding for more space */
+  border-radius: 0px;
+  box-shadow: 10px 10px 10px hsl(0, 0%, 0%);
+  width: 400px; /* Increased width for a larger window */
+}
+
+h2 {
+  margin-top: 10px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
